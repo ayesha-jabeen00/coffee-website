@@ -909,11 +909,13 @@ body {
   .newsletter-form {
     flex-direction: column;
     gap: 10px;
+    align-items: center; /* optional: center inputs */
   }
 
   .newsletter-form input[type="email"],
   .newsletter-form button {
-    width: 150%;
+    width: calc(100% - 11px);  /* smaller width with horizontal margin */
+    margin: 0 6px;             /* 6px left and right margin */
     border-radius: 8px;
   }
 
@@ -921,6 +923,7 @@ body {
     border-right: 1px solid var(--input-border);
   }
 }
+
 /* gallery */
 /* Light Mode (default) */
 .gallery-section {
