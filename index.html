@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coffe website</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <header class="navbar">
+    <h2 class="icon">
+  <i class="fas fa-mug-hot"></i> Cafra
+</h2>
+<nav id="nav-links" class="nav-links">
+  <a href="#homeSection"><i class="fas fa-home"></i> Home</a>
+  <a href="#about"><i class="fas fa-user"></i> About</a>
+  <a href="#features"><i class="fas fa-image"></i> Features</a>
+  <a href="#gallery"><i class="fas fa-camera"></i> Gallery</a>
+  <a href="#testimonial"><i class="fas fa-comments"></i> Testimonial</a>
+  <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+  
+  <!-- Book as a button-styled link -->
+  <a href="#bookSection" class="btn-book">
+    <i class="fas fa-calendar-check"></i> Book
+  </a>
+
+  <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+</nav>
+
+
+    <div id="menu-btn" class="menu-btn"><i class="fas fa-bars"></i></div>
+  </header>
+
+  <!-- Add your sections here -->
+<section class="hero-section" id="homeSection">
+  <div class="overlay">
+    <div class="hero-content">
+      <h1>Welcome to Cafe Shop ☕</h1>
+      <p>Experience the finest brews in a cozy and relaxing ambiance.</p>
+   <a href="#menu" class="btnmenu">Explore Our Menu</a>
+
+    </div>
+  </div>
+</section>
+<!-- about section -->
+ <section class="about-section" id="about">
+  <div class="about-container">
+    <div class="about-img">
+      <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1748768844/ChatGPT_Image_Jun_1_2025_02_28_32_PM_uaafic.png">
+    </div>
+    <div class="about-content">
+      <span class="section-label"><i class="fas fa-seedling"></i> ABOUT US</span>
+      <h2>Would You Like<br>Delicious Coffee</h2>
+     <p>
+  Our coffee shop offers a cozy and inviting atmosphere, perfect for relaxing or catching up with friends. We serve freshly brewed coffee, delicious pastries, and a variety of beverages to suit every taste. Whether you're here to work, read, or simply enjoy a cup of coffee, you'll feel right at home.
+</p>
+<p>
+  We take pride in the quality of our ingredients and the care we put into every cup. From friendly service to a peaceful setting, we aim to provide an experience that keeps our customers coming back. Come visit us and enjoy a perfect blend of taste and comfort.
+</p>
+
+     
+      <a href="#" class="btn-about">DISCOVER MORE</a>
+    </div>
+  </div>
+</section>
+<!-- features -->
+
+ <section class="features" id="features">
+        <h2>OUR FEATURES</h2>
+        <h1>What We Provide You</h1>
+        <p>Proin consequat non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum.</p>
+        <div class="feature-cards">
+            <div class="card">
+                <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1748769046/ChatGPT_Image_Jun_1__2025__02_38_32_PM-removebg-preview_ot1q4d.png" alt="Coffee Icon">
+                <h3>High Quality Coffee</h3>
+                  <p>Enjoy a warm and welcoming atmosphere where every cup is made with care. Our cozy space is the perfect place to unwind, catch up with friends, or simply enjoy a moment to yourself.
+                    </p>
+
+                <a href="#">Read More →</a>
+            </div>
+            <div class="card">
+                <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1748769472/cofeeee-removebg-preview_b18zq7.png" alt="Barista Icon">
+                <h3>Barista Coffee Shops</h3>
+                <p> Enjoy smooth and rich flavors in every sip. Our coffee is crafted with passion and served with warmth to make your visit truly special.
+               </p>
+                 <a href="#">Read More →</a>
+            </div>
+            <div class="card">
+                <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1748769880/shop_coffee-removebg-preview_l5jduq.png" alt="Shop Icon">
+                <h3>Shop Coffee Online</h3>
+                <p>Experience comfort and great taste together. Our carefully crafted blends are made to refresh your mood and energize your day.
+             </p>
+
+                <a href="#">Read More →</a>
+            </div>
+            <div class="card">
+                <img src="https://res.cloudinary.com/dxtmzketd/image/upload/v1748770371/ChatGPT_Image_Jun_1__2025__03_01_25_PM-removebg-preview_ukoqzt.png" alt="Machine Icon">
+                <h3>Best Coffee Machine</h3>
+                <p> Our coffee is crafted to bring you comfort and flavor in every cup. We focus on quality and care to make every visit enjoyable.
+               </p>
+
+                <a href="#">Read More →</a>
+            </div>
+        </div>
+    </section>
+    <!-- book a table -->
+
+    <div class="booking-section" id="bookSection">
+    <div class="booking-form">
+      <h4>CONTACT US</h4>
+      <h1>Book Your Table Now !</h1>
+      <form id="reservationForm">
+        <input type="text" placeholder="First Name" required>
+        <div class="row">
+          <input type="email" placeholder="Email" required>
+          <input type="tel" placeholder="Phone No." required>
+        </div>
+        <div class="row">
+          <input type="date" required>
+          <select required>
+            <option value="">Time</option>
+            <option>10:00 AM</option>
+            <option>12:00 PM</option>
+            <option>02:00 PM</option>
+            <option>06:00 PM</option>
+            <option>08:00 PM</option>
+          </select>
+        </div>
+        <button type="submit">BOOK TABLE NOW</button>
+      </form>
+    </div>
+    <div class="booking-image">
+      <img src="https://img.freepik.com/premium-photo/interior-lounge-architecture-entertainment-relaxation_482257-9581.jpg" alt="Restaurant Table Image">
+    </div>
+  </div>
+  <!-- menu -->
+     <section class="menu-section" id="menu">
+    <p class="subtitle">OUR MENU</p>
+    <h1 class="title">What We Have In Here</h1>
+    <p class="description">
+  We believe in serving more than just coffee — we create moments of comfort. Each cup is brewed with care to bring joy and warmth to your day.
+</p>
+
+    <div class="menu-grid">
+      <div class="menu-item">
+        <h3>Coffe Latte <span>$12.90</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+      <div class="menu-item">
+        <h3>Coffe Americano <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+      <div class="menu-item">
+        <h3>Macchiato <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+
+      <div class="menu-item">
+        <h3>Coffe Mocha <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cappuccino <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+      <div class="menu-item">
+        <h3>Iced Coffe <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+
+      <div class="menu-item">
+        <h3>Chocolate Mocha <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+      <div class="menu-item">
+        <h3>Vanilla Latte <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+      <div class="menu-item">
+        <h3>Iced Latte <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+
+      <div class="menu-item">
+        <h3>Espresso <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+      <div class="menu-item">
+        <h3>Caramel Latte <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+      <div class="menu-item">
+        <h3>Cortado <span>$13.00</span></h3>
+        <p>Espresso and Light Layer of Crema</p>
+      </div>
+    </div>
+
+    <button class="discover-btn">DISCOVER MORE</button>
+  </section>
+
+  <!-- testimonial -->
+
+  <section class="testimonial-section" id="testimonial">
+    <div class="testimonial-header">
+      <p class="subtitle"> TESTIMONIAL</p>
+      <h2 class="title">What Our Clients Says</h2>
+   <p class="desc">
+  The cozy atmosphere and delicious coffee make this place my favorite! The staff is always friendly, and every visit feels warm and welcoming.
+</p>
+
+    </div>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <!-- Card 1 -->
+        <div class="card">
+          <div class="card-header">
+            <img src="https://i.pravatar.cc/100?img=12" />
+            <div>
+              <h4>Jina Nilson</h4>
+              <span>Client</span>
+            </div>
+            <div class="quote">“”</div>
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+         <p>
+  Every cup is made with care and quality, offering rich flavors that leave you refreshed and satisfied.
+</p>
+
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <div class="card-header">
+            <img src="https://i.pravatar.cc/100?img=15" />
+            <div>
+              <h4>Braitly Dcosta</h4>
+              <span>Client</span>
+            </div>
+            <div class="quote">“”</div>
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>
+  Step into a space where comfort meets quality. We’re here to make every coffee moment truly special.
+</p>
+
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <div class="card-header">
+            <img src="https://i.pravatar.cc/100?img=20" />
+            <div>
+              <h4>Fathima Noor</h4>
+              <span>Client</span>
+            </div>
+            <div class="quote">“”</div>
+          </div>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>
+  We serve each cup with care, blending rich taste and smooth texture to create the perfect coffee experience.
+</p>
+
+        </div>
+      </div>
+      <div class="carousel-dots">
+        <span class="dot active" onclick="moveToSlide(0)"></span>
+        <span class="dot" onclick="moveToSlide(1)"></span>
+        <span class="dot" onclick="moveToSlide(2)"></span>
+      </div>
+    </div>
+  </section>
+  <!-- newsletter -->
+
+  <section class="newsletter-section">
+  <div class="newsletter-content">
+    <p class="subtitle">📬 Newsletter</p>
+    <h2 class="title">Get Best Offers On The Coffee</h2>
+    <p class="desc">With the subscription, enjoy your favourite coffees without having to think about it</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Your Email Address" required />
+      <button type="submit">Subscribe Now</button>
+    </form>
+  </div>
+</section>
+<!-- gallery -->
+
+<section class="gallery-section" id="gallery">
+  <div class="gallery-container">
+    <div class="gallery-large">
+      <img src="https://i.pinimg.com/736x/05/64/be/0564be2d969d6794168e3bbbe2ee9128.jpg" alt="Coffee Shop">
+    </div>
+    <div class="gallery-grid">
+      <img src="https://i.pinimg.com/736x/05/64/be/0564be2d969d6794168e3bbbe2ee9128.jpg" alt="Girl with coffee">
+      <img src="https://i.pinimg.com/736x/fd/13/eb/fd13eb260ccbb6ca530c6ca237110072.jpg" alt="Latte art pouring">
+      <img src="https://i.pinimg.com/736x/74/61/ca/7461ca68a5937d3b0f7dfcbd31d563de.jpg" alt="Coffee cheers">
+      <img src="https://i.pinimg.com/736x/81/a1/b9/81a1b90f150473a9f946b8f1884f4b07.jpg" alt="Coffee beans">
+    </div>
+  </div>
+</section>
+
+<!-- footer section -->
+
+<footer class="footer-section" id="contact">
+  <div class="footer-container">
+    <div class="footer-column logo-column">
+      <h2 class="logo">
+  <i class="fas fa-mug-hot"></i> Cafra.
+</h2>
+
+      <div class="footer-info">
+        <p><i class="fas fa-phone-alt"></i> 1800-965-343<br>+91-7052-284-432</p>
+        <p><i class="fas fa-envelope"></i> info@example.com<br>help@example.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Techinspire,3rd floor,<br>Madhapur.</p>
+      </div>
+    </div>
+
+    <div class="footer-column links-column">
+      <h3>Our Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#testimonial">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column map-column">
+      <h3>Our Shop Location</h3>
+      <iframe 
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60899.74267959436!2d78.35044551410645!3d17.448514696936012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9158f201b205%3A0x11bbe7be7792411b!2sMadhapur%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1748852047479!5m2!1sen!2sin" 
+        height="170" 
+        width="400"
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright © cafra 2024. All rights reserved.</p>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </div>
+</footer>
+
+<!-- Font Awesome CDN -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+     
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
